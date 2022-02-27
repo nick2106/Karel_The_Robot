@@ -1,0 +1,59 @@
+function main(){
+   //your code here
+  repeatStepOne();
+  goUp();
+  putBeeper();
+  turnRight();
+  doThis();
+  doThisNow();
+  doThisNow();
+  finallyDone();
+}
+
+function stepOne(){
+  putBeeper();
+  move();
+  move();
+  putBeeper();
+  move();
+  move();
+}
+
+function repeatStepOne(){
+    stepOne();
+   turnLeft();
+   stepOne();
+   turnLeft();
+   stepOne();
+   turnLeft();
+   stepOne();
+}
+
+function goUp(){
+  turnLeft();
+  move();
+  turnLeft();
+  move();
+}
+
+function doThis(){
+  move();
+  move();
+  putBeeper();
+}
+
+function doThisNow(){
+  turnLeft();
+  move();
+  move();
+  putBeeper();
+}
+
+function finallyDone(){
+  turnLeft();
+  move();
+  turnLeft();
+  move();
+  putBeeper();
+}
+
